@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+header a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #00d4ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.blog-card img {
+  width: 100%;
+  height: auto;
+}
+.blog-card h2 {
+  padding: 15px;
+  margin: 0;
+}
+.blog-card p {
+  padding: 0 15px 15px 15px;
+  color: #666;
+}
+.blog-full {
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.blog-full img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.blog-full h2 {
+  margin-top: 0;
+}
+.blog-full .actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
