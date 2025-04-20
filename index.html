@@ -1,19 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="BUGSyt8yXymvyX4BGttuOEwvsCSda1o9Sjus1DIdhx8" />
-  <meta charset="UTF-8">
-  <title>AnishBlogs</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anish Blogs</title>
+  <style>
+    /* Body Styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Main Container Styling */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    /* Heading and Welcome Section */
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Subheading for Blog Section */
+    h2 {
+      color: #2980b9;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Blog Links Section */
+    .blog-links {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 50px;
+    }
+
+    /* Individual Blog Link Styling */
+    .blog-links a {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      width: 250px; /* Fixed width to make it look neat */
+      margin: 0 auto; /* Center align the link */
+    }
+
+    .blog-links a:hover {
+      background-color: #2980b9;
+      transform: translateY(-5px); /* Slightly raise the button on hover */
+    }
+
+    /* Footer Styling */
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <a href="post1.html">📖 Mera Pehla Blog</a>
 
-  <header>
-    <h1>AnishBlogs</h1>
-    <a href="add.html">+ Add New Blog</a>
-  </header>
-  <main id="blog-list"></main>
-  <script src="script.js"></script>
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Welcome Section -->
+    <header>
+      <h1>Anish Blogs</h1>
+      <p style="text-align: center;">Explore my thoughts, experiences, and more!</p>
+    </header>
+
+    <!-- Latest Blogs Section -->
+    <section class="blog-links">
+      <h2>Latest Blogs</h2>
+      <a href="post1.html">📖 Mera Pehla Blog</a>
+      <!-- Add more blog links here if you want -->
+    </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Anish Blogs</p>
+  </footer>
+
 </body>
 </html>
